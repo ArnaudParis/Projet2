@@ -26,3 +26,5 @@
 ├── venv/
 ├── setup.py
 └── MANIFEST.in
+
+il manque le setup.py a ajouter et le MANIFEST.in
