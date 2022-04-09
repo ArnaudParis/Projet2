@@ -27,4 +27,6 @@
 ├── setup.py
 └── MANIFEST.in
 
-il manque le setup.py a ajouter et le MANIFEST.in
+il manque ces 2 fichiers à ajouter:
+- setup.py (Des fichiers d’installation qui indiquent à Python comment installer votre projet)
+- MANIFEST.in (La configuration de votre système de contrôle de version tel que git. Vous devriez prendre l’habitude d’utiliser un système de contrôle de version pour tous vos projets, quelle que soit leur taille)
