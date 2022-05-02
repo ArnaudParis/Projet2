@@ -1,32 +1,11 @@
 /home/user/Projects/flask-tutorial
-├── flaskr/
-│   ├── __init__.py
-│   ├── db.py
-│   ├── schema.sql
-│   ├── auth.py
-│   ├── blog.py
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── auth/
-│   │   │   ├── login.html
-│   │   │   └── register.html
-│   │   └── blog/
-│   │       ├── create.html
-│   │       ├── index.html
-│   │       └── update.html
-│   └── static/
+├── __init__.py
+├── schema.sql
+├── base.py
+├── templates/
+│   ├── index.html 
+│   ├── graph.html
+│   └── css/
 │       └── style.css
-├── tests/
-│   ├── conftest.py
-│   ├── data.sql
-│   ├── test_factory.py
-│   ├── test_db.py
-│   ├── test_auth.py
-│   └── test_blog.py
-├── venv/
-├── setup.py
 └── MANIFEST.in
 
-il manque ces 2 fichiers à ajouter:
-- setup.py (Des fichiers d’installation qui indiquent à Python comment installer votre projet)
-- MANIFEST.in (La configuration de votre système de contrôle de version tel que git. Vous devriez prendre l’habitude d’utiliser un système de contrôle de version pour tous vos projets, quelle que soit leur taille)
